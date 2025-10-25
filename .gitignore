@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+*.mv
+
+# Move lock file
+Move.lock
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+*.coverage
+
+# Package ID file
+.package_id
+
+# Temporary files
+*.tmp
+temp/
+tmp/
