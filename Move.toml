@@ -1,0 +1,11 @@
+[package]
+name = "derived_objects_examples"
+edition = "2024.beta"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+derived_objects_examples = "0x0"
+
