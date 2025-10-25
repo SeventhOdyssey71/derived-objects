@@ -1,4 +1,4 @@
-# Sui Derived Objects Examples
+# Sui Derived Objects Examples -- by Sele, a rugged dev from Abagana
 
 A comprehensive repository demonstrating the use of derived objects in Sui Move, showcasing deterministic address generation and various practical use cases.
 
@@ -126,16 +126,6 @@ sui move build
 sui move test
 ```
 
-### Deploy to Network
-
-```bash
-# Make script executable
-chmod +x scripts/deploy.sh
-
-# Deploy to active network
-./scripts/deploy.sh
-```
-
 ## Common Use Cases
 
 ### 1. Per-User Configuration
@@ -207,23 +197,10 @@ if (!derived_object::exists(&parent.id, key)) {
 - Consider privacy implications of predictable addresses
 - Validate ownership before allowing operations
 
-## Contributing
-
-Contributions are welcome! Please ensure:
-- Code follows Sui Move best practices
-- Tests are included for new features
-- Documentation is updated
-
 ## License
 
 This project is provided as-is for educational purposes. Use at your own risk.
 
-## Resources
-
-- [Sui Derived Objects Documentation](https://docs.sui.io/concepts/sui-move-concepts/derived-objects)
-- [Sui Move Book](https://docs.sui.io/build/move)
-- [Sui Developer Portal](https://sui.io/developers)
-
 ## Contact
 
-For questions or feedback, please open an issue in this repository.
+Hola, Sele here. If you have any issues, complaints or feedback, notify me. Or text my grandma on Telegram (SeventhOdyssey71)
